@@ -29,7 +29,10 @@ graph TD
 
 ---
 
-## 🏛️ Müfredat Genel Bakış
+## 🏗️ Müfredat Genel Bakış
+
+> [!TIP]
+> API dünyasına ilk adımı atmak için: **[API Nedir? (Teknik Derin Dalış)](API-Nedir.md)** rehberimizi okuyun.
 
 Yol haritası, web'in temel mekanizmalarından karmaşık altyapı orkestrasyonuna kadar ilerleyen altı stratejik modülden oluşmaktadır.
 
