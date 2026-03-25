@@ -1,26 +1,26 @@
-# 05. Security Protocol: Hardening the Gateway
+# 05. Güvenlik Protokolü: Geçidi Sertleştirmek
 
-Security is not a feature; it is a fundamental property of high-authority APIs.
+Güvenlik bir özellik değil; yüksek yetkili API'ların temel bir özelliğidir.
 
-## 📖 Topics Covered
+## 📖 Kapsanan Konular
 
-### 1. Authentication & Authorization
-*   **OAuth 2.1**: Scopes, Grant Types, and Authorization Codes.
-*   **OIDC (OpenID Connect)**: The identity layer on top of OAuth.
-*   **JWT (JSON Web Tokens)**: Claims, Signature validation, and JWS/JWE.
+### 1. Kimlik Doğrulama ve Yetkilendirme
+*   **OAuth 2.1**: Kapsamlar (Scopes), İzin Türleri (Grant Types) ve Yetkilendirme Kodları.
+*   **OIDC (OpenID Connect)**: OAuth üzerindeki kimlik katmanı.
+*   **JWT (JSON Web Tokens)**: Talepler (Claims), İmza doğrulama ve JWS/JWE.
 
-### 2. The OWASP API Security Top 10
-*   **BOLA (Broken Object Level Authorization)**: The #1 API vulnerability.
-*   **BFLA (Broken Function Level Authorization)**: Accessing admin functions.
-*   **Mass Assignment**: Uncontrolled updates to sensitive fields.
+### 2. OWASP API Security Top 10
+*   **BOLA (Broken Object Level Authorization)**: 1 numaralı API zafiyeti.
+*   **BFLA (Broken Function Level Authorization)**: Yönetici işlevlerine yetkisiz erişim.
+*   **Mass Assignment**: Hassas alanların kontrolsüz güncellenmesi.
 
-### 3. Defensive Configuration
-*   **CORS**: Secure cross-origin resource sharing.
-*   **CSP (Content Security Policy)**: Preventing XSS in hydrated responses.
-*   **IP Whitelisting & VPN**: Corporate-grade API isolation.
+### 3. Savunma Yapılandırması
+*   **CORS**: Güvenli çapraz köken kaynak paylaşımı.
+*   **CSP (Content Security Policy)**: Yanıtlarda XSS'i önlemek.
+*   **IP Beyaz Listeye Alma ve VPN**: Kurumsal düzeyde API izolasyonu.
 
-## 🚀 Lab Exercises
-*   [Lab 02: Deconstructing the JWT](labs/01-jwt-breakdown.md)
+## 🚀 Laboratuvar Egzersizleri
+*   [Laboratuvar 02: JWT'yi Detaylı İnceleme](labs/01-jwt-breakdown.md)
 
 ---
-[Return to Main Roadmap](../README.md)
+[Ana Yol Haritasına Dön](../README.md)

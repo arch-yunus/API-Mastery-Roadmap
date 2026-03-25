@@ -1,38 +1,38 @@
-# 🧪 Lab 01: Mastering HTTP with `curl`
+# 🧪 Laboratuvar 01: `curl` ile HTTP Uzmanlığı
 
-In this lab, you will use `curl` to interact with a mock API and understand precisely how headers and methods affect the server response.
+Bu laboratuvarda, mock bir API ile etkileşim kurmak için `curl` kullanacak ve header'ların (başlıklar) ve metotların sunucu yanıtını tam olarak nasıl etkilediğini anlayacaksınız.
 
-## 🛠 Prerequisites
-Ensure you have `curl` installed. Run `curl --version` to check.
+## 🛠 Ön Koşullar
+`curl`'ün kurulu olduğundan emin olun. Kontrol etmek için `curl --version` komutunu çalıştırın.
 
-## 📝 Exercises
+## 📝 Egzersizler
 
-### 1. The Verbose GET
-Fetch a resource and inspect the full header exchange.
+### 1. Ayrıntılı GET (Verbose GET)
+Bir kaynağı çekin ve tam başlık değişimini inceleyin.
 ```bash
 curl -v https://jsonplaceholder.typicode.com/posts/1
 ```
-> **Observation**: Look for `> GET` (Request) and `< HTTP/1.1 200 OK` (Response).
+> **Gözlem**: `> GET` (İstek) ve `< HTTP/1.1 200 OK` (Yanıt) satırlarını arayın.
 
-### 2. Custom Headers & Content Negotiation
-Tell the server you prefer XML over JSON (if supported).
+### 2. Özel Başlıklar ve İçerik Pazarlığı (Content Negotiation)
+Sunucuya JSON yerine XML tercih ettiğinizi söyleyin (eğer destekleniyorsa).
 ```bash
 curl -H "Accept: application/xml" https://jsonplaceholder.typicode.com/posts/1
 ```
 
-### 3. The Idempotent PUT
-Update a resource. Note that running this multiple times results in the same state.
+### 3. Idempotent PUT
+Bir kaynağı güncelleyin. Bu komutu birden çok kez çalıştırmanın aynı durumla sonuçlandığına dikkat edin.
 ```bash
 curl -X PUT -H "Content-Type: application/json" \
-     -d '{"title": "Updated Title", "body": "bar", "userId": 1}' \
+     -d '{"title": "Güncellenmiş Başlık", "body": "bar", "userId": 1}' \
      https://jsonplaceholder.typicode.com/posts/1
 ```
 
-### 4. Inspecting the `ETag` (Cache Control)
-Run a HEAD request to see if the resource has changed without fetching the body.
+### 4. `ETag` İncelemesi (Önbellek Kontrolü)
+Gövdeyi çekmeden kaynağın değişip değişmediğini görmek için bir HEAD isteği çalıştırın.
 ```bash
 curl -I https://jsonplaceholder.typicode.com/posts/1
 ```
 
 ---
-[Return to Module Foundations](../README.md)
+[Temeller Modülüne Dön](../README.md)

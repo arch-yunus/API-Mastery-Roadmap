@@ -1,26 +1,26 @@
-# 🚀 API Mastery Roadmap: From Foundation to Orchestration
+# 🚀 API Mastery Yol Haritası: Temelden Orkestrasyona
 
 ![API Mastery Banner](assets/banner.png)
 
-Welcome to the **API Mastery Roadmap**—a world-class, multi-disciplinary curriculum designed to transform you from a developer into a high-authority API Architect and Security Expert. This repository is not just a guide; it is an academic hub for modern software orchestration.
+**API Mastery Yol Haritası**'na hoş geldiniz—sizi bir geliştiriciden yüksek yetkili bir API Mimarı ve Güvenlik Uzmanına dönüştürmek için tasarlanmış, dünya standartlarında, çok disiplinli bir müfredat. Bu depo sadece bir rehber değil; modern yazılım orkestrasyonu için akademik bir merkezdir.
 
-## 🗺️ API Lifecycle Topology
+## 🗺️ API Yaşam Döngüsü Topolojisi
 
 ```mermaid
 graph TD
-    A[01 Foundations] --> B[02 Architectural Patterns]
-    B --> C[03 Design Mastery]
-    C --> D[04 Testing Excellence]
-    D --> E[05 Security Protocol]
-    E --> F[06 Infrastructure & CI/CD]
+    A[01 Temeller] --> B[02 Mimari Desenler]
+    B --> C[03 Tasarım Uzmanlığı]
+    C --> D[04 Test Mükemmelliği]
+    D --> E[05 Güvenlik Protokolü]
+    E --> F[06 Altyapı ve CI/CD]
     
-    subgraph "Core Pillars"
+    subgraph "Temel Sütunlar"
     A
     B
     C
     end
     
-    subgraph "Operational Excellence"
+    subgraph "Operasyonel Mükemmellik"
     D
     E
     F
@@ -29,55 +29,55 @@ graph TD
 
 ---
 
-## 🏛️ Curriculum Overview
+## 🏛️ Müfredat Genel Bakış
 
-The roadmap is structured into six strategic modules, moving from the foundational mechanics of the web to complex infrastructure orchestration.
+Yol haritası, web'in temel mekanizmalarından karmaşık altyapı orkestrasyonuna kadar ilerleyen altı stratejik modülden oluşmaktadır.
 
-### [01. Foundations: The Core Mechanics](01-Foundations/)
-*   **Protocols Deep Dive**: HTTP/1.1 vs HTTP/2 vs HTTP/3 (QUIC).
-*   **Data Serialization**: JSON Schema, XML/DTD, Protocol Buffers.
-*   **Architectural Styles**: The true meaning of REST (HATEOAS) vs SOAP.
+### [01. Temeller: Çekirdek Mekanikler](01-Foundations/)
+*   **Protokollere Derin Dalış**: HTTP/1.1 vs HTTP/2 vs HTTP/3 (QUIC).
+*   **Veri Serileştirme**: JSON Schema, XML/DTD, Protocol Buffers.
+*   **Mimari Stiller**: REST'in gerçek anlamı (HATEOAS) vs SOAP.
 
-### [02. Architectural Patterns](02-Architectural-Patterns/)
-*   **GraphQL**: Schema design, Resolvers, and N+1 problem.
-*   **gRPC**: High-performance RPC with Protobuf.
-*   **Reactive APIs**: Webhooks, WebSockets, and Server-Sent Events (SSE).
+### [02. Mimari Desenler](02-Architectural-Patterns/)
+*   **GraphQL**: Şema tasarımı, Resolver'lar ve N+1 problemi.
+*   **gRPC**: Protobuf ile yüksek performanslı RPC.
+*   **Reaktif API'lar**: Webhook'lar, WebSocket'ler ve Server-Sent Events (SSE).
 
-### [03. Design Excellence](03-Design-Mastery/)
-*   **Naming Conventions**: Resource-oriented design.
-*   **Versioning**: Header vs URI vs Media Type versioning.
-*   **Advanced Patterns**: Idempotency, Rate Limiting, Filtering, and Pagination.
+### [03. Tasarım Uzmanlığı](03-Design-Mastery/)
+*   **Adlandırma Kuralları**: Kaynak odaklı (resource-oriented) tasarım.
+*   **Versiyonlama**: Header vs URI vs Media Type versiyonlama.
+*   **Gelişmiş Desenler**: Idempotency, Rate Limiting, Filtreleme ve Sayfalama.
 
-### [04. Testing Strategy: Quality as a First-Class Citizen](04-Testing-Excellence/)
-*   **Automation**: Postman/Newman, RestAssured (Java), Playwright (JS).
-*   **Performance**: Load & Stress testing with K6 and JMeter.
-*   **Validation**: Contract Testing (Pact) and Schema Validation.
+### [04. Test Mükemmelliği: Kalite Birinci Sınıf Vatandaştır](04-Testing-Excellence/)
+*   **Otomasyon**: Postman/Newman, RestAssured (Java), Playwright (JS).
+*   **Performans**: K6 ve JMeter ile Yük ve Stres testleri.
+*   **Doğrulama**: Kontrat Testi (Pact) ve Şema Doğrulaması.
 
-### [05. Security Protocol: Hardening the Gateway](05-Security-Protocol/)
-*   **Authentication**: OAuth 2.1, OIDC, and JWT deep dives.
-*   **Vulnerability Management**: OWASP API Security Top 10.
-*   **Defensive Layers**: CORS, CSP, Rate Limiting, and IP Whitelisting.
+### [05. Güvenlik Protokolü: Geçidi Sertleştirmek](05-Security-Protocol/)
+*   **Kimlik Doğrulama**: OAuth 2.1, OIDC ve JWT derinlemesine inceleme.
+*   **Zafiyet Yönetimi**: OWASP API Security Top 10.
+*   **Savunma Katmanları**: CORS, CSP, Rate Limiting ve IP Beyaz Listeye Alma.
 
-### [06. Infrastructure & CI/CD](06-Infrastructure-CI-CD/)
-*   **API Gateways**: Kong, Tyk, and AWS API Gateway.
-*   **Observability**: OpenTelemetry, Prometheus, and Grafana.
-*   **Modern DevOps**: OpenAPI (Swagger) to SDK generation and GitHub Actions.
-
----
-
-## 🛠️ How to Use This Roadmap
-1.  **Start at 01**: Even if you are experienced, the foundations hold the secrets to master-level troubleshooting.
-2.  **Hands-on Labs**: Each module contains a `/labs` directory with practical exercises.
-3.  **Contribute**: This is a living document. Submit PRs for new patterns or security updates.
+### [06. Altyapı ve CI/CD](06-Infrastructure-CI-CD/)
+*   **API Gateway'ler**: Kong, Tyk ve AWS API Gateway.
+*   **Gözlemlenebilirlik**: OpenTelemetry, Prometheus ve Grafana.
+*   **Modern DevOps**: OpenAPI (Swagger) üzerinden SDK üretimi ve GitHub Actions.
 
 ---
 
-## ✍️ Prepared by
+## 🛠️ Bu Yol Haritası Nasıl Kullanılır?
+1.  **01'den Başlayın**: Deneyimli olsanız bile, temeller usta düzeyinde sorun gidermenin sırlarını barındırır.
+2.  **Uygulamalı Laboratuvarlar**: Her modül pratik egzersizler içeren bir `/labs` dizini içerir.
+3.  **Katkıda Bulunun**: Bu yaşayan bir belgedir. Yeni desenler veya güvenlik güncellemeleri için PR gönderin.
+
+---
+
+## ✍️ Hazırlayan
 **Bahattin Yunus Çetin**  
 *Multi-Disciplinary Systems Designer | Solopreneur*
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=flat-square&logo=github)](https://github.com/bahattinyunus)
+[![GitHub](https://img.shields.io/badge/GitHub-Profil-blue?style=flat-square&logo=github)](https://github.com/bahattinyunus)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/bahattinyunus/)
 
 ---
-> "The API is the contract between your system and the world. Make it unbreakable."
+> "API, sisteminiz ile dünya arasındaki kontrattır. Onu kırılmaz kılın."

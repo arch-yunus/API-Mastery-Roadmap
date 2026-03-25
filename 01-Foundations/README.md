@@ -1,26 +1,26 @@
-# 01. Foundations: The Core Mechanics
+# 01. Temeller: Çekirdek Mekanikler
 
-This module covers the essential protocols and standards that power 99% of modern web communication. Understanding these is non-negotiable for anyone aspiring to be an API Master.
+Bu modül, modern web iletişiminin %99'una güç veren temel protokolleri ve standartları kapsar. Bu temelleri anlamak, bir API Ustası olmayı hedefleyen herkes için tartışmaya kapalıdır.
 
-## 📖 Topics Covered
+## 📖 Kapsanan Konular
 
-### 1. HTTP Protocol (The Heartbeat)
-*   **Statelessness**: Why it matters for scalability.
-*   **HTTP Methods**: Beyond GET/POST (PUT vs PATCH, HEAD, OPTIONS).
-*   **Headers**: Content-Type, Accept, Cache-Control, ETag.
+### 1. HTTP Protokolü (Kalp Atışı)
+*   **Statelessness (Durumsuzluk)**: Ölçeklenebilirlik için neden önemlidir?
+*   **HTTP Metotları**: GET/POST'un ötesi (PUT vs PATCH, HEAD, OPTIONS).
+*   **Header'lar (Başlıklar)**: Content-Type, Accept, Cache-Control, ETag.
 
-### 2. Status Codes (The Language of APIs)
-| Range | Category | Purpose |
+### 2. Durum Kodları (API'ların Dili)
+| Aralık | Kategori | Amaç |
 | :--- | :--- | :--- |
-| **1xx** | Informational | Protocol switching, processing. |
-| **2xx** | Success | Everything went right. (201 for POST is a must!) |
-| **3xx** | Redirection | Resources moved. |
-| **4xx** | Client Error | The requester broke the contract. |
-| **5xx** | Server Error | The system failed internally. |
+| **1xx** | Bilgilendirme | Protokol değişimi, işleme. |
+| **2xx** | Başarı | Her şey yolunda gitti. (POST için 201 şart!) |
+| **3xx** | Yönlendirme | Kaynaklar taşındı. |
+| **4xx** | İstemci Hatası | İsteği yapan kontratı bozdu. |
+| **5xx** | Sunucu Hatası | Sistem dahili olarak başarısız oldu. |
 
 ### 3. REST vs SOAP
-*   **REST**: Architectural style, stateless, resource-based.
-*   **SOAP**: Protocol-based, strict XML, built-in ACID compliance.
+*   **REST**: Mimari stil, durumsuz (stateless), kaynak tabanlı.
+*   **SOAP**: Protokol tabanlı, katı XML, yerleşik ACID uyumluluğu.
 
-## 🚀 Lab Exercises
-*   [Lab 01: Mastering HTTP with curl](labs/01-curl-commands.md)
+## 🚀 Laboratuvar Egzersizleri
+*   [Laboratuvar 01: curl ile HTTP Uzmanlığı](labs/01-curl-commands.md)

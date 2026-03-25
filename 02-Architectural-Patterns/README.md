@@ -1,26 +1,26 @@
-# 02. Architectural Patterns: Diverse Communication Strategies
+# 02. Mimari Desenler: Çeşitli İletişim Stratejileri
 
-While REST is the industry standard, modern systems often require alternatives like GraphQL for flexibility or gRPC for performance.
+REST endüstri standardı olsa da, modern sistemler genellikle esneklik için GraphQL veya performans için gRPC gibi alternatifler gerektirir.
 
-## 📖 Topics Covered
+## 📖 Kapsanan Konular
 
 ### 1. GraphQL
-*   **The Schema-First Approach**: Designing types, queries, and mutations.
-*   **The Resolver Pattern**: How queries map to data sources.
-*   **Performance**: Solving the N+1 problem with DataLoaders.
+*   **Şema Odaklı Yaklaşım**: Tipleri, sorguları (queries) ve mutasyonları tasarlamak.
+*   **Resolver Deseni**: Sorguların veri kaynaklarıyla nasıl eşleştiği.
+*   **Performans**: Data Loader'lar ile N+1 problemini çözmek.
 
 ### 2. gRPC
-*   **Protocol Buffers (Protobuf)**: Language-neutral binary serialization.
-*   **Unidirectional vs Bidirectional Streaming**: Powering high-throughput service-to-service communication.
-*   **Code Generation**: Using `protoc`.
+*   **Protocol Buffers (Protobuf)**: Dilden bağımsız ikili (binary) serileştirme.
+*   **Tek Yönlü vs Çift Yönlü Akış**: Yüksek verimli servisler arası iletişime güç vermek.
+*   **Kod Üretimi**: `protoc` kullanımı.
 
-### 3. Real-Time & Event-Driven
-*   **Webhooks**: Reverse APIs for automated notifications.
-*   **WebSockets**: Bi-directional full-duplex communication.
-*   **SSE (Server-Sent Events)**: One-to-many event streaming for dashboards.
+### 3. Gerçek Zamanlı ve Olay Odaklı (Event-Driven)
+*   **Webhook'lar**: Otomatik bildirimler için tersine API'lar.
+*   **WebSocket'ler**: Çift yönlü tam-dupleks iletişim.
+*   **SSE (Server-Sent Events)**: Paneller (dashboards) için tekten çoğa olay akışı.
 
-## 🚀 Lab Exercises
-*   [Lab 03: GraphQL vs REST (Analysis)](labs/01-graphql-vs-rest.md)
+## 🚀 Laboratuvar Egzersizleri
+*   [Laboratuvar 03: GraphQL vs REST (Analiz)](labs/01-graphql-vs-rest.md)
 
 ---
-[Return to Main Roadmap](../README.md)
+[Ana Yol Haritasına Dön](../README.md)
